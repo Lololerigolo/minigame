@@ -5,35 +5,43 @@
 .color-5 {color: #900C3F;}
 .color-6 {color: #581845;}
 
-nav.menu-nav ul li.btn{
-  display: inline-block;
-  list-style: none;
+html{
+  font-family: sans-serif;
 }
 
-nav.menu-nav ul li.btn a{
+nav.menu{
+  text-align: center;
+}
 
+nav.menu li.btn{
+  display: inline-flex;
+}
+
+nav.menu li.btn a{
   color: #FFC300;
-  background-color: #C70039;
+  background-color: #900C3F;
   text-decoration: none;
   padding: 10px;
 }
 
-nav.menu-nav ul li.btn:hover a{
-  color: #C70039;
+nav.menu li.btn:hover a{
+  color: #900C3F;
   background-color: #FFC300;
   transition: 0.3s all;
 }
 
 body {
-  background-color: #900C3F;
+  background-color: #581845;
 }
 
 h1 {
   color: #FFC300;
   text-align: center;
+  font-size: 80px
 }
 
 p.default{
-  font-family: "Goudy Bookletter 1911", sans-serif;
-  font-size: 20px;
+  align-self: baseline;
+  color: #900C3F;
+  text-align: center;
 }
