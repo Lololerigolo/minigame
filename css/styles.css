@@ -8,26 +8,7 @@
 html{
   font-family: sans-serif;
 }
-nav.acceuil{
-  text-align: right;
-}
 
-nav.acceuil li.btn{
-  display: inline-flex;
-}
-
-nav.acceuil li.btn a{
-  color: #FFC300;
-  background-color: #900C3F;
-  text-decoration: none;
-  padding: 10px;
-}
-
-nav.acceuil li.btn:hover a{
-  color: #900C3F;
-  background-color: #FFC300;
-  transition: 0.3s all;
-}
 nav.menu{
   text-align: center;
 }
