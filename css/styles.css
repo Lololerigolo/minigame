@@ -3,19 +3,19 @@ html{
   font-family: monospace;
 }
 
-nav.menu{
+.menu{
   text-align: center;
 
 }
 
-nav.menu li.btn{
+.menu li.btn{
   display: inline-flex;
   border: dashed;
   border-color: white;
   font-size: 20px;
 }
 
-nav.menu li.btn a{
+.menu li.btn a{
   color: white;
   background-color: black;
   text-decoration: none;
@@ -23,7 +23,7 @@ nav.menu li.btn a{
   padding: 10px;
 }
 
-nav.menu li.btn:hover a{
+.menu li.btn:hover a{
   color: black;
   background-color: white;
   transition: 0.3s all;
@@ -31,22 +31,15 @@ nav.menu li.btn:hover a{
 
 body {
   background-color: black;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 80px;
-}
-
-p{
   color: white;
   text-align: center;
   align-self: center;
   margin-bottom: 100px;
 }
-input{
-  font-size: 20px;
+.titre{
+  color: white; text-align: center; font-size: 80px;
+}
 
-  text-align: center;
+input{
+  font-size: 20px; text-align: center;
 }
