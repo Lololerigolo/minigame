@@ -4,7 +4,6 @@ html{
 }
 
 nav.menu{
-  margin-top: 100px;
   text-align: center;
 
 }
@@ -21,7 +20,7 @@ nav.menu li.btn a{
   background-color: black;
   text-decoration: none;
   border-color: black;
-  padding: 8px;
+  padding: 10px;
 }
 
 nav.menu li.btn:hover a{
@@ -41,9 +40,10 @@ h1 {
 }
 
 p{
-  color: #900C3F;
+  color: white;
   text-align: center;
   align-self: center;
+  margin-bottom: 100px;
 }
 input{
   font-size: 20px;
