@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
     <title>MiniGames</title>
+    <script type="text/javascript" src="js/test.js"> </script>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -17,9 +17,35 @@
 
   <nav class="menu">
     <li class="btn">
-      <a href="escapegame.html">NEXT</a>
+      <a href="room.html">NEXT</a>
     </li>
   </nav>
+
+  <canvas id="myCanvas" width="480" height="320"></canvas>
+  <script>
+  var canvas = document.getElementById("myCanvas");
+  var ctx = canvas.getContext("2d");
+  var x = canvas.width/2;
+  var y = canvas.height-30;
+  var dx = 2;
+  var dy = -2;
+  var ballRadius = 10;
+  function drawBall() {
+    ctx.beginPath();
+    ctx.arc(x, y, 10, 0, Math.PI*2);
+    ctx.fillStyle = "#0095DD";
+    ctx.fill();
+    ctx.closePath();
+  }
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawBall()
+    x += dx;
+    y += dy;
+  } setInterval(draw, 10);
+
+
+  </script>
 
 </body>
 </html>
