@@ -1,9 +1,4 @@
 
 
-function testFunction() {
-  var pseudo = document.getElementById("pseudo").value;
-}
-
-function getPseudo() {
-  document.getElementById("la").innerHTML = pseudo;
-}
+var pseudo = document.getElementById("getpseudo").elements[0].value ;
+document.write(pseudo)
