@@ -1,12 +1,5 @@
 
-html{
-  font-family: monospace;
-}
-
-.menu{
-  text-align: center;
-
-}
+.menu{ text-align: center; margin: 30px}
 
 .menu li.btn{
   display: inline-flex;
@@ -30,14 +23,14 @@ html{
 }
 
 body {
+  font-family: monospace;
   background-color: black;
   color: white;
   text-align: center;
   align-self: center;
-  margin-bottom: 100px;
 }
 .titre{
-  color: white; text-align: center; font-size: 80px;
+  color: white; text-align: center;
 }
 
 input{
